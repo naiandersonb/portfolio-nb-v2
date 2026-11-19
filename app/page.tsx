@@ -1,19 +1,15 @@
-import { Button } from "@/components/ui/button"
-
 export default function Page() {
   return (
-    <div className="flex min-h-svh p-6">
-      <div className="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
-        <div>
-          <h1 className="font-medium">Project ready!</h1>
-          <p>You may now add components and start building.</p>
-          <p>We&apos;ve already added the button component for you.</p>
-          <Button className="mt-2">Button</Button>
-        </div>
-        <div className="font-mono text-xs text-muted-foreground">
-          (Press <kbd>d</kbd> to toggle dark mode)
-        </div>
-      </div>
+    <div className="mx-auto flex min-h-svh max-w-5xl flex-col gap-6 p-6 py-10">
+      <span className="text-[12px] text-chart-1 uppercase">
+        Caxias, MA · remoto
+      </span>
+      <h1 className="max-w-[80%] font-heading text-5xl font-bold">
+        Desenvolvedor web, com 4 anos de experiência criando interfaces com{" "}
+        <span className="text-muted-foreground">
+          React, Next.js e TypeScript.{" "}
+        </span>
+      </h1>
     </div>
   )
 }
