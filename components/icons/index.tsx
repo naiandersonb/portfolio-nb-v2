@@ -7,11 +7,11 @@ import { TailwindCSS } from "./TailwindCSS"
 import { Typescript } from "./Typescript"
 
 export const Stacks = {
-  Typescript: <Typescript />,
-  Laravel: <Laravel />,
-  Livewire: <Livewire />,
-  NextJs: <NextJs />,
-  PHP: <PHP />,
-  ReactJs: <ReactJs />,
-  TailwindCSS: <TailwindCSS />,
+  Typescript: Typescript,
+  Laravel: Laravel,
+  Livewire: Livewire,
+  NextJs: NextJs,
+  PHP: PHP,
+  ReactJs: ReactJs,
+  TailwindCSS: TailwindCSS,
 }
